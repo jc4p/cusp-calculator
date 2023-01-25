@@ -1,0 +1,56 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  text-align: center;
+}
+
+:root {
+  --bg-color-one: #E3E3E3;
+  --bg-color-two: #E3E3E3;
+}
+
+.App {
+  padding: 20px;
+  padding-top: 100px;
+  height: 100%;
+  background: radial-gradient(circle, var(--bg-color-one) 0%, var(--bg-color-two) 100%);
+}
+
+@media screen and (max-width: 769px) {
+  .App {
+    padding-top: 40px;
+  }
+}
+
+.monthSelector {
+  font-size: 1.5rem;
+  padding: 5px;
+  border: none;
+  margin-right: 10px;
+}
+
+.dateSelector { 
+  font-size: 1.5rem;
+  padding: 5px;
+  border: none;
+  margin-right: 10px;
+}
+
+.yearSelector { 
+  font-size: 1.5rem;
+  padding: 5px;
+  border: none;
+}
+
+.locationRow input {
+  font-size: 1.5rem;
+  border: none;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.resultsContainer p {
+  margin: 0;
+}
